@@ -17,7 +17,7 @@ public class DragDropTest {
     }
 
     @Test
-    void DragDropBySelenide() {
+    void dragDropBySelenide() {
         open("drag_and_drop");
 
         $("#column-a").shouldHave(text("A"));

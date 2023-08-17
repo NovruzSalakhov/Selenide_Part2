@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 public class SolutionsTest {
     @Test
-    void SelenideSolutionsEnterprise () {
+    void selenideSolutionsEnterprise () {
         open("https://github.com/");
         $(".header-menu-wrapper").$(byText("Solutions")).hover();
         $(".header-menu-wrapper").$(byText("Enterprise")).click();
